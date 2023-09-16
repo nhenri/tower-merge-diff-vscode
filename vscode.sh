@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-CMD=$(which code)
+CMD="/usr/local/bin/code"
 
 if [[ $# -eq 4 ]]; then
   #Invoked as merge tool
